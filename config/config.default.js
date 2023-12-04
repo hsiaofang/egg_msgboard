@@ -53,6 +53,19 @@ module.exports = appInfo => {
     },
   };
 
+  config.schedule = {
+    enable: true,
+  };
+
+  config.redis = {
+    client: {
+      port: 6379,
+      host: '127.0.0.1',
+      password: null,
+      db: 0,
+    },
+  };
+
 
 
 
